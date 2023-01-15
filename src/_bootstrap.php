@@ -1,11 +1,12 @@
 <?php
 
 /**
- * This file is part of phayne-io/phunctional and is proprietary and confidential.
- * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * This file is part of phayne-io/phunctional package.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  *
  * @see       https://github.com/phayne-io/phunctional for the canonical source repository
- * @copyright Copyright (c) 2023-2023 Phayne. (https://phayne.io)
+ * @copyright Copyright (c) 2023 Phayne. (https://phayne.io)
  */
 
 declare(strict_types=1);

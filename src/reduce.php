@@ -1,11 +1,12 @@
 <?php
 
 /**
- * This file is part of phayne-io/phunctional and is proprietary and confidential.
- * Unauthorized copying of this file, via any medium is strictly prohibited.
+ * This file is part of phayne-io/phunctional package.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  *
  * @see       https://github.com/phayne-io/phunctional for the canonical source repository
- * @copyright Copyright (c) 2023-2023 Phayne. (https://phayne.io)
+ * @copyright Copyright (c) 2023 Phayne. (https://phayne.io)
  */
 
 declare(strict_types=1);
@@ -16,7 +17,7 @@ namespace Phayne\Phunctional;
  * Returns the accumulated value of iteratively reduce the collection using a function that receives the accumulated
  * value and returns a new one in each iteration
  *
- * Similar to `array_reduce` but allowing receive the keys of the items as the third argument of the functions.
+ * Similar to `array_reduce` but allowing to receive the keys of the items as the third argument of the functions.
  * Function $fn should accept the accumulated value as first argument, the value of the item as the second argument
  * and optionally the key of the item as the third argument.
  *
